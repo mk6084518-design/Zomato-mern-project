@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://zomato-mern-project-maxx16.vercel.app"
+        "https://zomato-mern-project-opzk500lm-maxx16.vercel.app"
     ],
     credentials: true
 }));
