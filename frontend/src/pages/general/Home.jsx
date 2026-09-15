@@ -8,7 +8,7 @@ const Home = () => {
     // Autoplay behavior is handled inside ReelFeed
 
     useEffect(() => {
-        axios.get("http://localhost:3000/api/food", { withCredentials: true })
+        axios.get(`${import.meta.env.VITE_API_URL}/api/food`, { withCredentials: true })
             .then(response => {
 
                 console.log(response.data);
